@@ -1,9 +1,11 @@
+/* color and text align for main text elements */
+
 h1, h2, h3, p {
     color: black;
     text-align: center;
 }
 
-
+/* 2 and 3 column layout classes for containers */
 
 .column-3 {
     float: left;
@@ -28,6 +30,8 @@ h1, h2, h3, p {
     clear: both;
 }
 
+/* button class and psudeo class hover coloring */
+
 .btn {
   display: flex;
   font-family: arial, sans-serif;
@@ -49,6 +53,30 @@ h1, h2, h3, p {
     color: darkgreen;
 }
 
+/* anchor link styling */
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+/* image styling for about me section */
+.icon {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    
+}
+
+/* horizontal ruler styling */
+hr {
+    width: 33.33%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+/* header styling */
 header {
     background-image:url(images/road.jpg);
     background-size: cover;
@@ -84,6 +112,8 @@ header img {
     
 }
 
+/* container with intro id styling */
+
 #intro {
     background-image: url(images/intro-background-2.jpg);
     background-position: center;
@@ -109,10 +139,12 @@ header img {
     
 }
 
-a {
-    text-decoration: none;
-    color:black;
+#intro-paragraph {
+    padding-right:30px;
 }
+
+/* element styling for container with id "about-me" */
+
 
 #about-me{
     background-color:black; 
@@ -134,19 +166,7 @@ a {
     padding-left: 30px;
 }
 
-
-.icon {
-    display: flex;
-    height: 50px;
-    margin: auto;
-    
-}
-
-hr {
-    width: 33.33%;
-    margin-top: 35px;
-    margin-bottom: 45px;
-}
+/* element styling for container with id "contact" */
 
 #contact p {
     color:black;
@@ -179,8 +199,4 @@ hr {
 #contact a:hover {
     color:black;
     
-}
-
-#intro-paragraph {
-    padding-right:30px;
 }
