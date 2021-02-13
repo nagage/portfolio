@@ -1,0 +1,186 @@
+h1, h2, h3, p {
+    color: black;
+    text-align: center;
+}
+
+
+
+.column-3 {
+    float: left;
+    width: 33.33%;
+}
+
+.row-3:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+.row-2:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.btn {
+  display: flex;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+    width: 100px;
+  margin: auto;
+    justify-content: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+    color:black;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color:darkgrey;
+    color: darkgreen;
+}
+
+header {
+    background-image:url(images/road.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-bottom: -20px;
+    
+}
+
+header div{
+    padding-top: 300px;
+}
+
+header h1, header h2 {
+    color:white
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header h2 {
+    font-size: 23px;
+    margin-top: -60px;
+}
+
+header img {
+    display: flex;
+    height : 120px;
+    width: auto;
+    margin: auto;
+    margin-bottom: -60px;
+    border-radius: 50%;
+    
+}
+
+#intro {
+    background-image: url(images/intro-background-2.jpg);
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    height:300px;
+    background-size: 1820px;
+
+}
+
+#intro h2 {
+    color:black;
+    font-size: 100px;
+    margin-bottom: -10px;
+    margin-top: 85px;
+}
+
+#intro p {
+    margin-top:120px;
+    text-align: center;
+    color:black;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#about-me{
+    background-color:black; 
+    margin-top:-20px;
+    padding-bottom: 25px;
+}
+
+#about-me h2, h3, p, ul, ol {
+    color:white;
+    
+}
+#about-me h2 {
+    padding-top:25px;
+}
+
+#about-me p{
+    margin:auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.icon {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    
+}
+
+hr {
+    width: 33.33%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+#contact p {
+    color:black;
+}
+
+.contact-gallery{
+    display: block;
+}
+.contact-icon{
+    display:inline-block;
+    margin:auto;
+}
+
+#contact{
+    background-color: darkgrey;
+    margin-top:-20px;
+    padding-top: 15px;
+    margin-bottom: -20px;
+    padding-bottom:15px;
+}
+
+#contact h2, #contact p, #contact a {
+    color: white;
+}
+
+#contact a{
+    transition-duration: 0.4s;
+}
+
+#contact a:hover {
+    color:black;
+    
+}
+
+#intro-paragraph {
+    padding-right:30px;
+}
